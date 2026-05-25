@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Serviços</title>
+    <link rel="stylesheet" href="servico.css">
+</head>
+<body>
+ 
+    
+   <div id="cabecalho">
+    <div id="logo">
+        <img src="/./img/ChatGPT Image 20 de mai. de 2025, 22_15_46.png" alt="">
+    </div>
+    <div id="home">
+        <a href="/inicio/inicio.html">🏠Home</a>
+    </div>
+    <div id="quem">
+        <a href="/inicio/Quem Somos/Quem somos.html">👁️‍🗨️Quem Somos</a>
+    </div>
+    <div id="servicos">
+        <a style="color: white;" href="/inicio/Serviços/Serviços.html">🛠️Serviços</a>
+    </div>
+    <div id="politicas">
+        <a href="/inicio/PolíticasdaEmpresa/PolíticasdaEmpresa.html">📜Políticas da Empresa</a>
+    </div>
+    </div>
+
+<div class="container">
+    <h2>Solicite um Serviço</h2>
+    <form>
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required>
+
+
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="servico">Tipo de Serviço</label>
+      <select id="servico" name="servico" required>
+        <option value="" id="Selecione">Selecione...</option>
+        <option value="desenvolvimento" id="desenvolvimento">Desenvolvimento de Software</option>
+        <option value="hardware" id="hardware">Manutenção de Hardware</option>
+        <option value="office365" id="office365">Suporte em Office 365</option>
+        <option value="Cibersegurança">Cibersegurança</option>
+        <option value="TIVerde">TI Verde</option>
+        <option value="Treinamento de equipe">Treinamento de Equipe</option>
+        <option value="outro" id="outros">Outro</option>
+      </select>
+
+      <label for="descricao">Descreva sua necessidade</label>
+      <textarea id="descricao" name="descricao" rows="5" required></textarea>
+
+      <button type="submit" id="submit">Enviar Solicitação</button>
+    </form>
+ </div>
+    
+
+
+<br>
+<br>
+<br>
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h1>JUST SEE TECH'S</h1>
+      <p></p>Tecnologia <strong>visível</strong>, <strong>acessível</strong> e <strong>transformadora</strong>.</p>
+    </div>
+    <div class="footer-links">
+      <div>
+        <h4>Blog</h4>
+        <ul>
+          <li><a href="#">Tech</a></li>
+          <li><a href="#">Adventures</a></li>
+          
+        </ul>
+      </div>
+      <div>
+        <h4>Produtos</h4>
+        <ul>
+          <li><a href="#">App</a></li>
+          <li><a href="#">Desktop</a></li>
+          <li><a href="#">Funções</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="#">Suport</a></li>
+          <li><a href="#">E-mail</a></li>
+          <li><a href="#">Politcs</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="./serviços.js"></script>
+</body>
+</html>

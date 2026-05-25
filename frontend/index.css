@@ -1,0 +1,67 @@
+#imagem {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-image: url("img/ChatGPT Image 20 de mai. de 2025, 22_15_46.png");
+  background-repeat: no-repeat;
+  background-size: cover; /* cobre toda a área do botão */
+  background-position: center; /* centraliza a imagem */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+  margin-top: 200px;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#imagem img {
+  height: 500px;
+  width: 500px;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  
+  
+  font-size: 70px;
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(
+    to right,
+    #dafdba,
+    #9aeba3,
+    #45c4b0,
+    #13678a,
+    #012030
+    );
+  }
+  
+
+    
+    
+    
+    @media (max-width: 768px) {
+    
+      h1{
+        font-size: 35px;
+        margin-top: 150px;
+      }
+    body{
+      overflow-x: hidden;
+    }
+      
+    #imagem{
+      width:350px ;
+      height: 300px;
+    }
+      }
