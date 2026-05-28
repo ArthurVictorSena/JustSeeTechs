@@ -2,7 +2,7 @@
   height: 500px;
   width: 500px;
   border-radius: 50%;
-  background-image: url("img/ChatGPT Image 20 de mai. de 2025, 22_15_46.png");
+  background-image: url("/frontend/img/logo.png");
   background-repeat: no-repeat;
   background-size: cover; /* cobre toda a área do botão */
   background-position: center; /* centraliza a imagem */
